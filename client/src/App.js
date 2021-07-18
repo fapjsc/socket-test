@@ -35,8 +35,8 @@ const App = () => {
   return (
     <div className="App">
       <h1>Client</h1>
-      <button onClick={() => goToRoom('web1', '1234')}>web1</button>
-      <button onClick={() => goToRoom('web2', 'abcd')}>web2</button>
+      <button onClick={() => goToRoom('web1', '1234')}>Room1</button>
+      <button onClick={() => goToRoom('web2', 'abcd')}>Room2</button>
     </div>
   );
 };
